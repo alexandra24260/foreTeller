@@ -1,14 +1,14 @@
-     if (window.location.pathname === '/index.html'){
-     window.setTimeout(function(){
-        window.location.href = "/step1.html";
+if (window.location.pathname === '/foreTeller'){
+    window.setTimeout(function(){
+       window.location.href = "/foreTeller/step1.html";
 
-    }, 3000);
+   }, 3000);
 }
 
-if (window.location.pathname === '/graphic.html'){
-    window.setTimeout(function(){
-       window.location.href = "/starsaying.html";
+if (window.location.pathname === '/foreTeller/graphic.html'){
+   window.setTimeout(function(){
+      window.location.href = "/foreTeller/starsaying.html";
 
-   }, 5000);
+  }, 5000);
 }
 
