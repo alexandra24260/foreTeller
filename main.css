@@ -224,6 +224,14 @@ color: #747994;
     margin: 5px;
 }
 
+.rating-area label:active{
+    border: 1.5px solid #807BB0;
+}
+
+.rating-area input:checked {
+    border: 1.5px solid #807BB0;
+  }
+
 .rating-area p {
 width: 5px;
 height: 16px;
@@ -241,5 +249,15 @@ color: #000000;
     padding-top: 50px;
     display: flex;
     justify-content: center;
+}
+
+.balance{
+    text-align: center;
+}
+
+.notice {
+    background-image: url('iphone.png');
+    background-repeat: no-repeat;
+    height: 814px;
 }
 
